@@ -8,7 +8,7 @@ RUN apt-get -y update && apt-get -y install wget curl git subversion nano openss
         && apt-get clean \
         && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/man/?? /usr/share/man/??_*
 
-# add gitconfig
+# 添加 gitconfig
 ADD .gitconfig /root
 
 # set alias for nano
